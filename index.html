@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Propose Day 💍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lock">
+  <h2>Enter Password 💖</h2>
+  <input type="password" id="pass" placeholder="Password">
+  <button onclick="unlock()">Unlock</button>
+</div>
+
+<div id="content" style="display:none;">
+  <audio id="music" autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+  </audio>
+
+  <canvas id="fireworks"></canvas>
+
+  <div class="book">
+    <div class="page active">
+      <img src="1.jpg">
+      <h1 id="type"></h1>
+      <p>You are the most beautiful chapter of my life.</p>
+    </div>
+    <div class="page"><img src="2.jpg"><p>I choose you, every single day.</p></div>
+    <div class="page"><img src="3.jpg"><p>With you, love feels like home.</p></div>
+    <div class="page"><img src="4.jpg"><p>Forever sounds perfect with you.</p></div>
+    <div class="page"><img src="5.jpg"><h2>Will You Be Mine? 💍</h2></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
